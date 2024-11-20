@@ -41,10 +41,8 @@ p {
 
 img {
   display: block;
-  max width: 100%;
   height: auto;
 }
-
 
 /*загальні стилі*/
 
@@ -103,6 +101,7 @@ img {
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -138,6 +137,7 @@ img {
 .hero,
 .footer {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .container-hero {
@@ -251,18 +251,18 @@ img {
 
 .portfolio {
   text-transform: capitalize;
-}
-
-.container-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+  margin-left: 156px;
+  margin-right: 260px;
 }
 
 .portfolio-list {
-  width: calc((100% - 24px) / 3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.portfolio-atem {
+  width: calc((100% - 48px) / 3);
 }
 
 .logo-part-light {
@@ -272,24 +272,15 @@ img {
 .basement {
   display: flex;
   flex-direction: column;
-  padding: 100px 1020px 100px 156px ;
-
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: column;
+  padding: 100px 1020px 100px 156px;
 }
 
 .container-footer-logo {
-display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 0px;
-width: 115px;
-height: 24px;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
 }
 
 .container-footer-text {
@@ -297,9 +288,15 @@ height: 24px;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 0px;
   width: 264px;
-height: 72px;
+  height: 72px;
+}
+
+.portfolio-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
 
 .footer-text {
