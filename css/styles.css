@@ -1,20 +1,25 @@
+/*основні налаштування та скидання*/
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
 
-/*reset*/
-ul,
-ol {
+ul, ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-img {
-  display: block;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
 
 a {
   text-decoration: none;
@@ -29,29 +34,12 @@ button {
   cursor: pointer;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
 img {
   display: block;
   height: auto;
 }
 
-/*загальні стилі*/
-
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
+/*загальні*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -62,6 +50,37 @@ img {
   border: 0;
   clip: rect(0 0 0 0);
 }
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.contacts-link:hover {
+  color: #404bbf;
+}
+
+.contacts-link:focus,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 
 /* header */
 .page-header {
@@ -80,6 +99,7 @@ img {
 
 .header-logo {
   margin-right: 76px;
+  padding: 24px 0 24px;
 }
 
 .logo {
@@ -90,7 +110,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 0 24px;
 }
 
 .logo-part {
@@ -185,9 +204,14 @@ img {
 
 .innovations-list {
   display: flex;
-  gap: 40px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  gap: 24px;
+  padding: 120px 0 120px 0;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.innovations-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .innovations-sybtitle,
@@ -241,7 +265,7 @@ img {
 .team-list {
   background-color: #ffffff;
 }
-.team-atem {
+.team-item {
   background: #fff;
 }
 
@@ -265,7 +289,7 @@ img {
   gap: 10px;
 }
 
-.portfolio-atem {
+.portfolio-item {
   width: calc((100% - 48px) / 3);
 }
 
@@ -310,3 +334,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
