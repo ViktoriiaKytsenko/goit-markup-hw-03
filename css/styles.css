@@ -40,7 +40,8 @@ img {
 }
 
 /*загальні*/
-.visually-hidden {
+
+visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -100,7 +101,7 @@ img {
 
 .header-logo {
   margin-right: 76px;
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 
 .logo {
@@ -218,6 +219,7 @@ img {
 
 .innovations-item {
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px; 
 }
 
 .innovations-sybtitle,
@@ -328,12 +330,9 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-caption {
-  margin-right: 0;
-}
-
 .portfolio-item-three {
   margin-bottom: 0;
+  margin-right: 0;
 }
 
 .logo-part-light {
@@ -348,10 +347,10 @@ img {
 .basement {
   display: flex;
   flex-direction: column;
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
 }
 
-.container-footer-logo {
+.container-footer-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -359,23 +358,12 @@ img {
   gap: 0px;
 }
 
-.container-footer-text {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  width: 264px;
-  height: 72px;
-}
-
-
-
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px
+  max-width: 264px;
 }
 
