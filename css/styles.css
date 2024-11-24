@@ -43,6 +43,7 @@ img {
 
 .visually-hidden {
   position: absolute;
+  white-space: nowrap;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -121,6 +122,10 @@ img {
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+}
+
+.contacts-item {
   padding: 24px 0;
 }
 
