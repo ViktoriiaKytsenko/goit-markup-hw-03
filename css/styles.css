@@ -41,7 +41,7 @@ img {
 
 /*загальні*/
 
-visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -96,7 +96,6 @@ visually-hidden {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-logo {
@@ -125,6 +124,10 @@ visually-hidden {
   padding: 24px 0;
 }
 
+.nav-item {
+  padding: 24px 0;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -132,6 +135,7 @@ visually-hidden {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -254,7 +258,6 @@ visually-hidden {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
 }
 
@@ -279,6 +282,7 @@ visually-hidden {
 }
 .team-item {
   background: #fff;
+  border-radius: 0 0 4px 4px;
 }
 
 .container-team-name {
@@ -330,10 +334,6 @@ visually-hidden {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item-three {
-  margin-bottom: 0;
-  margin-right: 0;
-}
 
 .logo-part-light {
   color: #f4f4fd;
