@@ -5,21 +5,22 @@ body {
   background-color: #fff;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 a {
   text-decoration: none;
@@ -84,7 +85,6 @@ img {
   margin: 0 auto;
 }
 
-
 /* header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -122,14 +122,9 @@ img {
 .contacts-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contacts-item {
-  padding: 24px 0;
-}
-
-.nav-item {
   padding: 24px 0;
 }
 
@@ -168,14 +163,13 @@ img {
 .hero,
 .footer {
   background-color: #2e2f42;
-  padding: 188px 0;
 }
 
-
+.section-hero {
+  padding: 188px 0;
+}
 .container-hero {
   display: flex;
-  padding-top: 188px;
-  padding-bottom: 188px;
   flex-direction: column;
   align-items: center;
 }
@@ -218,7 +212,6 @@ img {
 .innovations {
   padding: 120px 0;
 }
- 
 
 .innovations-list {
   display: flex;
@@ -229,7 +222,7 @@ img {
 
 .innovations-item {
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 3 * 24px) / 4); 
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .innovations-sybtitle,
@@ -240,7 +233,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -264,7 +257,6 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding: 0px 0px 32px 0px;
 }
 
 .team-title,
@@ -293,7 +285,6 @@ img {
 
 .container-team-name {
   padding: 32px 0;
-
 }
 
 .team-sybtitle-desc {
@@ -303,13 +294,14 @@ img {
 
 .team-desc {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .portfolio {
   text-transform: capitalize;
   margin-left: 156px;
   margin-right: 260px;
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -317,14 +309,13 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px; 
+  row-gap: 48px;
 }
 
 .portfolio-item {
@@ -339,7 +330,6 @@ img {
   gap: 40px;
   width: calc((100% - 48px) / 3);
 }
-
 
 .logo-part-light {
   color: #f4f4fd;
@@ -372,4 +362,3 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-
